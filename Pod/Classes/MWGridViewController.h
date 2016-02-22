@@ -16,5 +16,6 @@
 @property (nonatomic) CGPoint initialContentOffset;
 
 - (void)adjustOffsetsAsRequired;
+- (void)refresh;
 
 @end

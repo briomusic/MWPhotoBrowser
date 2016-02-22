@@ -624,6 +624,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
         [self.view setNeedsLayout];
     }
     
+    [_gridController refresh];
 }
 
 - (NSUInteger)numberOfPhotos {
